@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 10px;
+    height: 55px;
+    gap: 45px;
+
+    .funko-logo{
+        width: auto;
+        height: fit-content
+    }
+
+    a {
+        font-family: "New Amsterdam", sans-serif;
+        font-size: 20px;
+        color: #fff;
+        text-decoration: none;
+
+    }
+    .search-bar{
+        border-radius: 50px;
+        width: 15%;
+        height: 30px;
+    }
+
+    .icons-navbar{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        align-content: end;
+
+        .icon-img{
+            width: auto;
+            height: fit-content;
+        }
+    }
+}
