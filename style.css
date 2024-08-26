@@ -84,7 +84,6 @@
         border-radius: 20px;
         cursor: pointer;
     }
-
 }
 
 .separador-marcas{
@@ -98,29 +97,186 @@
 }
 
 .container-duplo{
+    position: relative;
     display: flex;
     flex-direction: row;
 
     .container-elsa{
         .base-frozen{
             position: relative;
+            object-fit: cover;
+            width: 100%;
+            height: 85vh;
         }
         .frozen{
             position: absolute;
             left: 25%;
+            top:50px
         }            
         }
-
-        
     }
 
     .container-starwars{
         .base-star{
             position: relative;
+            object-fit: cover;
+            width: 100%;
+            height: 85vh;
         }
         .rey{
             position: absolute;
             right: 25%;
+            top:55px
         }
-
 }
+
+.base-bg-products{
+    background-color: rgb(131, 131, 196);
+    
+    .text-products{
+        font-size: 40px;
+        color: #fff;
+        font-family: "New Amsterdam", sans-serif;
+        text-align: center;
+    }
+
+    .container-funkos{
+        background-color: rgb(131, 131, 196);
+        display: flex;
+        flex-direction: column;
+
+
+        .container-row1, .container-row2{
+            display: flex;
+            flex-direction: row;
+            
+
+            .container-funko-ind{
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+                background-color: rgb(69, 120, 197);
+                border-radius: 20px;
+                border: 1px solid;
+                margin: 60px;
+
+            .text-row1{
+                color: #fff;                
+            }
+
+            .btn-container-funkos{
+                cursor: pointer;
+                font-size: 20px;
+                background-color: black;
+                border-radius: 50px;
+                width: 250px;
+            
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+                .img-btn-row1{
+                    width: 30px;
+                    align-items: start;
+                }
+            }
+        }
+    }
+    }
+}
+
+.btn-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .btn-see{
+        width: 300px;
+        height: 50px;
+        background-color: black;
+        border-radius: 50px;
+        align-content: center;
+        
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 22px;
+        }
+}
+}
+
+.container-clientes{
+
+    .divisao-a{
+        display: flex;
+        flex-direction: row;
+
+        .divisao-a-2{
+            background-color: #3644F8;
+            width: auto;
+        }
+    }
+}
+
+.newsletter{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    .base-img-news{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .texto-news{
+        position: absolute;
+        top:40%;
+        left: 10%;
+    }
+
+    .newsletter-icones-loja{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top:120%;
+        left: -1%;
+    }
+
+    .newsletter-funkos{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top:30%;
+        right: 10%;
+    }
+}
+
+.bg-footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.bg2-footer{
+    background-color: #3466f8;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.text1-footer{
+    margin: 40px 0 40px 55px;
+}
+
+.text1-icons{
+    margin: 30px 10px 0 0 ;
+}
+
+.text-footer{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0 0 100px;
+    gap: 120px;
+    color: #fff;
+}
+
